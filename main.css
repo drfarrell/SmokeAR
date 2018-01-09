@@ -47,7 +47,7 @@ header {
   margin: 0 auto;
 }
 
-.logo svg {
+.logo #svg {
   margin-top: 20px;
   margin: 20px auto;
   display: block;
@@ -147,7 +147,7 @@ header {
   margin-bottom: 30px;
 }
 
-.services svg {
+.services #svg {
   margin-top: 20px;
 }
 
@@ -251,8 +251,8 @@ header {
 }
 
 .occasions .container {
-  margin-left: 40px;
-  margin-right: -100px;
+  margin-left: 22%;
+  margin-right: -300px;
 }
 
 .occasions ul {
@@ -356,7 +356,17 @@ footer .container {
   text-align: right;
   margin-right: 30px;
   float: right;
+  margin-top: -55px;
 }
+
+@media screen and (max-width: 1600px) {
+  .occasions .container {
+    margin-left: 0%;
+    margin-right: -100px;
+  }
+}
+
+
 
 @media screen and (max-width: 1200px) {
   .jumbotron img {
@@ -448,7 +458,6 @@ footer .container {
     text-align: left !important;
   }
 
-
   .occasions .container {
     margin-left: -120px;
     margin-right: -80px;
@@ -459,6 +468,10 @@ footer .container {
     margin-left: -20px;
     margin-right: -20px;
     padding-top: 100px;
+  }
+
+  .copyright {
+    margin-top: 0px;
   }
 
 }
