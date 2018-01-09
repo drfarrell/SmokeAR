@@ -542,7 +542,7 @@ footer .container {
     overflow: hidden;
   }
 
-  .logo svg {
+  .logo #svg {
     padding: 4px;
     position: relative;
     top: 20px;
